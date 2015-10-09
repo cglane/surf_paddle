@@ -1,0 +1,137 @@
+
+body,html{
+  margin: 0;
+  background-color: white;
+  font-family: "ff-tisa-web-pro",serif;
+}
+nav{
+  width: 100%;
+  height: 10%;
+  position:absolute;
+
+}
+
+.navigation li{
+  display: inline-block;
+}
+.icon{
+  width: 50%;
+  margin-left: 5%;
+  font-size: 30px;
+}
+
+.links{
+  float: right;
+  margin-right: 5%;
+  width: 20%;
+
+}
+.links a {
+  text-decoration: none;
+  color:white;
+  font-size: 30px;
+  padding: 5%;
+}
+
+/*center header, size*/
+.content{
+  font-size: 20px;
+  text-align: center;
+}
+.content h1{
+  font-size: 100px;
+}
+.container{
+  width:100%;
+  height: 900px;
+  margin: 0;
+  border: 1px solid black;
+
+}
+ .first{
+  background-image: url("http://newsfirst.lk/english/wp-content/uploads/2013/12/rough-sea.jpg");
+}
+
+.container .third{
+  position:relative;
+}
+/*first container*/
+.content{
+  color: white;
+  margin-top: 15%;
+}
+/*second container  */
+ .cols{
+   width:48%;
+   height: 100%;
+   display: inline-block;
+   margin-top:0;
+
+
+
+ }
+ .row{
+   height: 20%;
+   width: 100%;
+   border: 1px solid black;
+
+ }
+ .row .one h1{
+   max-height: 100%;
+ }
+ /*bottom container*/
+.rows{
+  height: 10%;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.rows h1{
+  margin: 0;
+  text-align: center;
+}
+.pics li{
+  width: 25%;
+  display: inline-block;
+  max-height: 100%;
+}
+.pics li img{
+  width:100%;
+  max-height: 100%;
+  margin: 0;
+
+}
+/*second container sidebar*/
+.sidebar{
+  width: 100%;
+  height: 30%;
+}
+.sidebar img{
+
+height: 100%;
+width:100%;
+}
+
+/*sub-navigation bar*/
+.sub-nav{
+  width: 100%;
+  height: 150px;
+  background-color: blue;
+  margin: auto;
+  display: inline-block;
+}
+.icon{
+  display: inline-block;
+  height: 100%;
+}
+.sub-nav h1{
+  height: 100%;
+}
+.sub-nav li{
+  display: inline-block;
+  float: right;
+  font-size: 20px;
+  height: 100%;
+  border-left: 2px solid black;
+  margin: 10px;
+}
