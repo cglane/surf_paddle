@@ -35,69 +35,137 @@ nav{
 
 /*center header, size*/
 .content{
-  font-size: 20px;
+  width: 80%;
+  height: 50%;
+  font-size: 70px;
   text-align: center;
+  padding: 10%;
+
 }
-.content h1{
-  font-size: 100px;
+.content  h1{
+  padding: 0;
+  margin: 0;
 }
+.content h2{
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+
 .container{
   width:100%;
-  height: 900px;
+  height: 80em;
   margin: 0;
-  border: 1px solid black;
+
 
 }
  .first{
   background-image: url("http://newsfirst.lk/english/wp-content/uploads/2013/12/rough-sea.jpg");
 }
 
-.container .third{
+.container.third{
   position:relative;
+  height: 30em;
 }
 /*first container*/
 .content{
   color: white;
-  margin-top: 15%;
+  margin-top: 0;
+}
+.content h1{
+  margin: top;
 }
 /*second container  */
  .cols{
-   width:48%;
+   width:40%;
    height: 100%;
    display: inline-block;
-   margin-top:0;
+   margin-left: 5%;
+
 
 
 
  }
  .row{
-   height: 20%;
+   height: 33%;
    width: 100%;
-   border: 1px solid black;
 
  }
- .row .one h1{
+
+ /*second container first row*/
+
+ .row h1{
+   font-size: 4em;
+ }
+ .one h1{
    max-height: 100%;
+   font-size: 5em;
+   padding: 0;
+   margin: 0;
+ }
+ .row p{
+   font-size: 25px;
+ }
+ .row-1{
+   display: inline;
+ }
+
+ .row-1 img{
+   width: 10%;
+ }
+ .row-1 .image-caption{
+   color:blue;
+ }
+ .row-1 a{
+   color: grey;
+ }
+ /*second container second row*/
+ .two h1{
+   border-left: .1em solid black;
+ }
+ /*second container third row*/
+ .link-images{
+   width: 100%;
+   height: 20%;
+ }
+ .link-images li{
+   display: inline;
  }
  /*bottom container*/
 .rows{
   height: 10%;
   width: 100%;
-  border: 1px solid black;
+
+}
+.rows.one{
+  height: 25%;
+}
+.rows.two{
+  height:70%;
+}
+.rows{
+  color: blue;
+  width: 100%;
+  font-size: 1.2em;
 }
 
 .rows h1{
   margin: 0;
   text-align: center;
 }
+.pics {
+  width: 100%;
+  height: 100%;
+}
 .pics li{
   width: 25%;
   display: inline-block;
-  max-height: 100%;
+  height: 100%;
 }
 .pics li img{
   width:100%;
-  max-height: 100%;
+  height: 100%;
   margin: 0;
 
 }
@@ -105,7 +173,19 @@ nav{
 .sidebar{
   width: 100%;
   height: 30%;
+  position: static;
 }
+.uno{
+  height: 20%;
+}
+.dos{
+  height: 40%;
+}
+.tres{
+  height:30%;
+  font-size: 2em;
+}
+
 .sidebar img{
 
 height: 100%;
@@ -113,25 +193,28 @@ width:100%;
 }
 
 /*sub-navigation bar*/
+footer{
+  width: 100%;
+  height: 10%;
+  background-color: blue;
+}
 .sub-nav{
   width: 100%;
-  height: 150px;
-  background-color: blue;
-  margin: auto;
+  height: 100%;
   display: inline-block;
 }
 .icon{
-  display: inline-block;
+  width: 50%;
   height: 100%;
+  font-size: .8em;
 }
-.sub-nav h1{
+footer .nav-items{
+  width: 49%;
   height: 100%;
-}
-.sub-nav li{
-  display: inline-block;
   float: right;
-  font-size: 20px;
-  height: 100%;
-  border-left: 2px solid black;
-  margin: 10px;
+}
+.nav-items li{
+  width: 20%;
+  display: inline-block;
+  font-size: 1.3em;
 }
