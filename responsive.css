@@ -1,0 +1,85 @@
+
+@media (max-width: 500px) {
+
+    nav{height: 200px;}
+    .navigation{text-align: center;;}
+    .navigation.icon{width: 100%;margin:auto;}
+    .navigation .icon{position: absolute;
+      top:80px;
+      right:140px;
+
+    }
+    .icon span{display: none;}
+    .links{width: 50%;
+      float: none;
+      display: inline-block;
+      margin-right: 10%;
+      position: absolute
+      color:black;
+      font-size: .5em;
+
+    }
+    .links a {width: 30%; color:black; }
+
+
+    .content{font-size: 2em; padding-top: 30%;}
+    .content p:nth-child(2){font-size: .5em;}
+    
+
+    .container .second div{
+      display: block;
+    }
+    .cols{width: 90%;}
+    .col-1 h1{
+      font-size: 5em;
+    }
+    .pics li{
+      display: block;
+      width: 70%;
+    }
+    .two .pics li{
+      width: 70%;
+      display: block;
+    }
+    .two .pics li a{
+      width: 100%;
+    }
+    .two .pics li img{
+      width: 100%;
+    }
+    footer {
+      position: absolute;
+      height: 40  %;
+    }
+    .nav-items{
+      position: absolute;
+      right:120px;
+      bottom: 100px;
+      width:100px;
+      float: none;
+    }
+
+    .nav-items li{
+      width: 30%;
+      font-size: .7em;
+    }
+    .nav-items li::before{
+      content: '|';
+      font-size: 2em;
+    }
+    .nav-items li:nth-child(4){
+      padding-left: 32%;
+    }
+    .sub-nav{
+    margin: 30% 0 0 32% ;
+    width: 30%;
+    color: black;
+    }
+    .sub-nav span {
+      color: black;
+      font-size: .5em;
+    }
+    footer .icon{
+      margin-top: 50%;
+    }
+}
